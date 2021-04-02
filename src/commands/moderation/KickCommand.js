@@ -14,7 +14,7 @@ module.exports = class KickCommand extends BaseCommand {
     const kickEmbed = new Discord.MessageEmbed()
        .setTitle(`You Were Kicked from ${message.guild.name}`)
        .setDescription(`Reason: ${reason}`)
-       .setColor("#5708ab")
+       .setColor("#FF0000")
        .setTimestamp()
        .setFooter(client.user.tag ,client.user.displayAvatarURL());
 
